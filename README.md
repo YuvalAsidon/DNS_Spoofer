@@ -9,3 +9,5 @@
 * run everything there and then:
   * sudo iptables -I FORWARD -j NFQUEUE --queue-num 0
   * python net_cut.py
+  * and after you get out of the program write:
+   * iptables --flush
