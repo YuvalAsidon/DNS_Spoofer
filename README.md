@@ -11,3 +11,9 @@
   * python net_cut.py
   * and after you get out of the program write:
     * sudo iptables --flush
+* if you want to try it on you own computer:
+  * sudo iptables -I OUTPUT-j NFQUEUE --queue-num 0
+  * sudo iptables -I INPUT-j NFQUEUE --queue-num 0
+  * python net_cut.py
+  * and after you get out of the program write:
+    * sudo iptables --flush
