@@ -6,6 +6,7 @@
 
 ## Runing the program
 * need to use the [arp_spoofing](https://github.com/YuvalAsidon/ARP_Spoofing)
+* sudo apt-get install xterm
 * run everything there and then:
   * sudo iptables -I FORWARD -j NFQUEUE --queue-num 0
   * python net_cut.py
