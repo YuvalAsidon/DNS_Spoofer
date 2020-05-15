@@ -1,5 +1,5 @@
 # DNS_Spoofer
-
+DNS spoofer allow you to be the man-in-the-middle, choose on which pc you want to try it on and what website you want to spoof
 ## Install netfilterqueue
 * sudo apt install python3-pip git libnfnetlink-dev libnetfilter-queue-dev
 * pip3 install -U git+https://github.com/kti/python-netfilterqueue
